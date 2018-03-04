@@ -32,7 +32,7 @@ $(document).on("click", ".toy-btn", function () {
 });
 
 function callGiphyAPI(toy) {
-  var baseURL = "http://api.giphy.com/v1/gifs/search?";
+  var baseURL = "https://api.giphy.com/v1/gifs/search?";
   var queryString = "q=" + toy + "&api_key=ZrY7WS6QsMCJiN6isca1dv8QswGKI1Po&limit=10";
   var queryURL = baseURL + encodeURI(queryString);
 
