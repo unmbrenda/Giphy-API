@@ -1,0 +1,26 @@
+body{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'VT323', monospace;
+    font-family: 'Press Start 2P', cursive; */
+}
+
+.container{
+    background: blue;
+}
+button{
+    margin: 10px;
+}
+div{
+    margin: 10px;
+}
+form{
+    margin: 10px;
+}
+input {
+    margin: 10px;
+}
+.inlinePic{
+    display:inline-block;
+}
+      
